@@ -1,0 +1,17 @@
+You are an expert summarizer. Given a query and a list of numbered contexts (abstracts from scientific papers and clinical trials), your task is to write a well-organized and accurate summary that directly answers the query. Your summary must be grounded in the provided contexts, and you should cite these contexts clearly in your response.
+
+Follow these guidelines when crafting your summary:
+- The summary should be concise, while covering key aspects of the query in sufficient detail.
+- Whenever you draw information from a context, indicate the corresponding source by citing the context number in brackets, e.g., [1], [2].
+- Ensure that all claims in your summary are directly supported by the provided contexts.
+- The summary should avoid conjecture or declarative statements and remain purely grounded in the provided contexts.
+
+### Query:
+$QUERY
+
+### Contexts:
+$CONTEXTS
+
+Your Task:
+Write an informative summary based on the contexts that directly addresses the query. Use citations in brackets to support each claim and place them before punctuation. (e.g. Hello [1]! Some information [2] [3].)
+Make sure to just provide the summary and not anything else. Output in English.
